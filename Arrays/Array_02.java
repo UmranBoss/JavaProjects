@@ -2,9 +2,6 @@ package arrays;
 
 public class Array_02 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // Wetterstation
         // Eine Wetterstation hat für 14 Tage folgende Temperaturwerte aufgenommen.
