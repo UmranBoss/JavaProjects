@@ -8,4 +8,4 @@ Ich habe all diese Projekte mit der Apache NetBeans IDE 23 entwickelt. Es gibt a
 
 Wenn Du also sehen möchtest, wie ich mein Wissen in konkrete Projekte umsetze, bist Du hier genau richtig. Ich freue mich, wenn meine Arbeiten Dir einen Eindruck davon geben, wie ich arbeite und was ich bereits gelernt habe.
 
-Ich hoffe, Du hast genauso viel Spaß beim Durchschauen dieser Projekte, wie ich beim Entwickeln hatte!
+Ich hoffe, Du hast genauso viel Spaß beim Durchschauen dieser Projekte, wie ich beim Entwickeln hatte! ☕
