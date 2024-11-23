@@ -1,5 +1,6 @@
 # JavaProjects
-## Meine ersten Java-Projekte: Einblicke in den Anfang meiner Entwicklerreise
+## Meine ersten Java-Projekte:
+### Einblicke in den Anfang meiner Entwicklerreise
 
 Hey! Schön, dass Du hier bist. In diesem Repository findest Du meine ersten Java-Projekte, die ich während meiner Umschulung zur Fachinformatikerin für Anwendungsentwicklung beim BBQ-Bildungsinstitut erstellt habe.
 
