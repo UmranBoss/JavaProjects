@@ -1,9 +1,12 @@
-# Erstellen und Verwalten einer Namenliste in Java mit Benutzereingabe und Ausgabe
+# Funktionsweise der Codes
 
-## Aufgabe
+## Array_01
+### Erstellen und Verwalten einer Namenliste in Java mit Benutzereingabe und Ausgabe
+
+#### Aufgabe
 Das Programm ermöglicht es dem Benutzer, eine Liste von Namen einzugeben, die dann mit einer Begrüßung ("Hallo [Name]") ausgegeben wird. Die Eingabe wird gestoppt, wenn der Benutzer einfach die Eingabetaste drückt, ohne einen Namen einzugeben.
 
-## Die wichtigsten Schritte im Code sind:
+#### Die wichtigsten Schritte im Code sind:
 
 1. Deklaration von Variablen:
 
