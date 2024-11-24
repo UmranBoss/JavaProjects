@@ -1,5 +1,50 @@
 # Funktionsweise der Codes
 
+## Array_01
+### Berechnung und Analyse von Zahlen mit Arrays
+#### Aufgabe
+Die erste Aufgabe berechnet die Quadratzahlen für die Positionen eines Arrays.
+Die zweite Aufgabe ermittelt verschiedene Werte (Summe, Minimum, Maximum, Mittelwert und die Anzahl positiver Zahlen) basierend auf 10 vom Benutzer eingegebenen Zahlen.
+#### Code-Erklärung:
+1. Deklaration und Initialisierung
+Array für Quadratzahlen:
+int[] aiQuadratZahlen = new int[nAnzahlElemente];
+Array aiQuadratZahlen mit 10 Elementen wird erstellt.
+Füllen mit Quadratzahlen:
+aiQuadratZahlen[i] = i * i;
+Array wird mit den Quadratzahlen der Indizes (0 bis 9) befüllt.
+2. Ausgabe der Quadratzahl von 5
+Quadratzahl von 5 ausgeben:
+System.out.println("Die Quadratzahl von 5 lautet: " + aiQuadratZahlen[5]);
+Gibt 25 aus (da 5 * 5 = 25).
+3. Eingabe von 10 Zahlen durch den Benutzer
+Scanner für Benutzereingabe:
+Scanner scanner = new Scanner(System.in);
+Scanner wird verwendet, um Zahlen vom Benutzer zu lesen.
+Speichern der Eingabewerte:
+zahlen[i] = scanner.nextInt();
+10 Zahlen werden in das Array zahlen gespeichert.
+4. Berechnungen und Ausgaben
+Berechnungen (Summe, Minimum, Maximum, Mittelwert, positive Werte):
+Methoden wie berechneSumme(zahlen), berechneMinimum(zahlen), etc., werden verwendet.
+Ergebnisse werden in der Konsole ausgegeben.
+5. Methoden für Berechnungen
+Summe berechnen:
+summe += zahl;
+Summiert alle Zahlen im Array.
+Minimum berechnen:
+if (zahl < min)
+Sucht die kleinste Zahl.
+Maximum berechnen:
+if (zahl > max)
+Sucht die größte Zahl.
+Mittelwert berechnen:
+return (double) summe / zahlen.length;
+Berechnet den Mittelwert der Zahlen.
+Anzahl positiver Zahlen zählen:
+if (zahl > 0)
+Zählt die positiven Zahlen im Array.
+
 ## Array_02
 ### Wetterstation: Temperaturauswertung und Analyse für 14 Tage
 #### Aufgabe
