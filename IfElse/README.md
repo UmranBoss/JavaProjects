@@ -28,3 +28,21 @@ Verschachtelte if-else-Bedingungen ermöglichen eine detaillierte Prüfung aller
 Die Beziehungen zwischen den drei Werten werden vollständig analysiert und ausgegeben.
 
 [Klicke hier, um den PAP zum Code einzusehen!](https://github.com/UmranBoss/JavaProjects/blob/main/IfElse/PAP/PAP_VergleichVon3Werten.pdf)
+
+## IfElse_02
+### Prüfung des Disco-Einlasses basierend auf Alter, Geschlecht und Tanzfähigkeiten
+#### Aufgabe
+In diesem Java-Programm wird überprüft, ob eine Person aufgrund ihres Alters, Geschlechts und ihrer Tanzfähigkeiten in die Disco eingelassen wird. Der Benutzer wird nach verschiedenen Informationen gefragt, und je nach Antwort erhält er eine positive oder negative Rückmeldung.
+#### Code-Erklärung
+1. Begrüßung und Scanner-Objekt:
+System.out.println(): Gibt Text aus.
+Scanner survey = new Scanner(System.in);: Erstellt ein Scanner-Objekt für Benutzereingaben.
+2. Benutzereingaben:
+name = survey.nextLine();, age = survey.nextLine();, sex = survey.nextLine();: Liest den Namen, das Alter und das Geschlecht.
+3. Bedingung für Alter und Geschlecht:
+if (age.equalsIgnoreCase("yes") && (sex.equalsIgnoreCase("female") || sex.equalsIgnoreCase("male"))): Überprüft, ob der Benutzer 18 oder älter ist und ein Geschlecht angegeben hat.
+4. Tanzfähigkeiten überprüfen:
+dance = survey.nextLine();: Fragt nach Tanzfähigkeiten.
+if (dance.equalsIgnoreCase("yes")): Wenn der Benutzer tanzen kann, gibt es eine positive Rückmeldung, sonst eine negative.
+5. Verweigerung bei Minderjährigkeit:
+Wenn der Benutzer unter 18 ist, erhält er eine humorvolle Nachricht.
