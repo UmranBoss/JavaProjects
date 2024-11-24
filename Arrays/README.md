@@ -1,24 +1,5 @@
 # Funktionsweise der Codes
 
-## Array_01
-### Erstellen und Verwalten einer Namenliste in Java mit Benutzereingabe und Ausgabe
-#### Aufgabe
-Das Programm ermöglicht es dem Benutzer, eine Liste von Namen einzugeben, die dann mit einer Begrüßung ("Hallo [Name]") ausgegeben wird. Die Eingabe wird gestoppt, wenn der Benutzer einfach die Eingabetaste drückt, ohne einen Namen einzugeben.
-#### Code-Erklärung:
-1. Deklaration von Variablen:
-Scanner scanner = new Scanner(System.in); – Ein Scanner-Objekt wird erstellt, um Benutzereingaben von der Konsole zu lesen.
-ArrayList<String> personen = new ArrayList<>(); – Eine ArrayList wird erstellt, um die Namen der Personen zu speichern, die der Benutzer eingibt.
-boolean eingabeFertig = false; – Eine Flag-Variable, die steuert, wann der Eingabeprozess beendet ist.
-2. Eingabeschleife (do-while):
-Die Schleife fragt den Benutzer nach einem Namen, solange der Benutzer keinen leeren String eingibt.
-System.out.print("Name hinzufuegen: "); fordert den Benutzer auf, einen Namen einzugeben.
-String name = scanner.nextLine(); liest die Benutzereingabe.
-Wenn der Benutzer einen leeren String eingibt (also einfach Enter drückt), wird eingabeFertig auf true gesetzt, und die Schleife wird beendet.
-Wenn der Benutzer einen Namen eingibt, wird dieser Name der ArrayList personen hinzugefügt.
-3. Ausgabe der Namen:
-Nachdem die Eingabe beendet ist, gibt der Code eine Begrüßung für jede Person aus der Liste aus.
-for (int i = 0; i < personen.size(); i++) { ... } iteriert über die gespeicherten Namen und gibt "Hallo [Name]" für jede Person aus.
-
 ## Array_02
 ### Wetterstation: Temperaturauswertung und Analyse für 14 Tage
 #### Aufgabe
@@ -39,4 +20,42 @@ Der größte Temperaturumschwung wird ermittelt, indem der Unterschied zwischen 
 Das Programm findet den größten Unterschied und gibt an, an welchem Tag dieser Umschwung stattgefunden hat.
 5. Tabellarische Ausgabe der Daten:
 Zum Abschluss gibt das Programm die Temperaturen der 14 Tage in einer tabellarischen Form aus. Dabei wird zuerst die Tagesnummer (tage) und anschließend die Temperaturen für diese Tage (tempTage) in einer übersichtlichen Tabelle dargestellt.
+
+## Array_03
+### Befüllen und Ausgeben einer Zahlreihe mit einer Schleife
+#### Aufgabe
+Das Programm erstellt ein Array mit 1000 Ganzzahlen und füllt dieses Array mit Zahlen von 1 bis 1000. Diese Zahlen werden dann mit einer Schleife in der Konsole ausgegeben. Der Code bietet eine einfache Möglichkeit, eine große Anzahl von Zahlen zu generieren und darzustellen.
+#### Code-Erklärung:
+1. Deklaration des Arrays:
+int[] zahlenreihe = new int[1000];
+Hier wird ein Array mit dem Namen zahlenreihe vom Typ int (Ganzzahl) erstellt, das 1000 Elemente speichern kann. Alle Werte im Array sind zunächst mit dem Standardwert 0 initialisiert.
+2. Schleife zum Befüllen des Arrays:
+for (int i = 0; i < zahlenreihe.length; i++) {
+Eine for-Schleife wird verwendet, um durch jedes Element des Arrays zu iterieren. Die Schleife startet bei i = 0 und läuft, solange i kleiner ist als die Länge des Arrays (zahlenreihe.length), also 1000. Die Schleife wird also insgesamt 1000-mal durchlaufen.
+3. Füllen des Arrays mit Zahlen:
+zahlenreihe[i] = i + 1;
+In jedem Schleifendurchgang wird das Element des Arrays an der Position i mit dem Wert i + 1 belegt. Das bedeutet, dass an der ersten Stelle (i = 0) der Wert 1 gespeichert wird, an der zweiten Stelle (i = 1) der Wert 2 und so weiter bis i = 999, wo der Wert 1000 gespeichert wird.
+4. Ausgabe des aktuellen Werts:
+System.out.println(zahlenreihe[i]);
+Nach jedem Setzen des Wertes im Array gibt System.out.println() den Wert des aktuellen Elements des Arrays an der Position i in der Konsole aus. Es wird also die Zahl von 1 bis 1000 nacheinander ausgegeben.
+
+## Array_04
+### Erstellen und Verwalten einer Namenliste in Java mit Benutzereingabe und Ausgabe
+#### Aufgabe
+Das Programm ermöglicht es dem Benutzer, eine Liste von Namen einzugeben, die dann mit einer Begrüßung ("Hallo [Name]") ausgegeben wird. Die Eingabe wird gestoppt, wenn der Benutzer einfach die Eingabetaste drückt, ohne einen Namen einzugeben.
+#### Code-Erklärung:
+1. Deklaration von Variablen:
+Scanner scanner = new Scanner(System.in); – Ein Scanner-Objekt wird erstellt, um Benutzereingaben von der Konsole zu lesen.
+ArrayList<String> personen = new ArrayList<>(); – Eine ArrayList wird erstellt, um die Namen der Personen zu speichern, die der Benutzer eingibt.
+boolean eingabeFertig = false; – Eine Flag-Variable, die steuert, wann der Eingabeprozess beendet ist.
+2. Eingabeschleife (do-while):
+Die Schleife fragt den Benutzer nach einem Namen, solange der Benutzer keinen leeren String eingibt.
+System.out.print("Name hinzufuegen: "); fordert den Benutzer auf, einen Namen einzugeben.
+String name = scanner.nextLine(); liest die Benutzereingabe.
+Wenn der Benutzer einen leeren String eingibt (also einfach Enter drückt), wird eingabeFertig auf true gesetzt, und die Schleife wird beendet.
+Wenn der Benutzer einen Namen eingibt, wird dieser Name der ArrayList personen hinzugefügt.
+3. Ausgabe der Namen:
+Nachdem die Eingabe beendet ist, gibt der Code eine Begrüßung für jede Person aus der Liste aus.
+for (int i = 0; i < personen.size(); i++) { ... } iteriert über die gespeicherten Namen und gibt "Hallo [Name]" für jede Person aus.
+
 
