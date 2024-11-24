@@ -5,9 +5,6 @@ import java.util.Scanner;
 
 public class Array_01 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
 
         System.out.println("------------ Erste Aufgabe ------------");
