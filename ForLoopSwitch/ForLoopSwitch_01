@@ -1,0 +1,55 @@
+package aufgabe_forloop_switch_01;
+
+public class Aufgabe_ForLoop_Switch_01 {
+
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 12; i++) {
+            String month;
+
+            switch (i) {
+                case 1:
+                    month = "\t January";
+                    break;
+                case 2:
+                    month = "\t February";
+                    break;
+                case 3:
+                    month = "\t March";
+                    break;
+                case 4:
+                    month = "\t April";
+                    break;
+                case 5:
+                    month = "\t May";
+                    break;
+                case 6:
+                    month = "\t June";
+                    break;
+                case 7:
+                    month = "\t July";
+                    break;
+                case 8:
+                    month = "\t August";
+                    break;
+                case 9:
+                    month = "\t September";
+                    break;
+                case 10:
+                    month = "\t October";
+                    break;
+                case 11:
+                    month = "\t November";
+                    break;
+                case 12:
+                    month = "\t Decemeber";
+                    break;
+                default:
+                    month = "\033[1;31m" + "Invalid input!" + "\033[0m";
+            }
+
+            // Output: month
+            System.out.println(i + ". Month: " + month);
+        }
+    }
+}
