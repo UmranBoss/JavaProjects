@@ -26,3 +26,5 @@ Alle unterschiedlich: Werte in auf- oder absteigender Reihenfolge.
 Verschachtelte if-else-Bedingungen ermöglichen eine detaillierte Prüfung aller Kombinationen.
 6. Endergebnis:
 Die Beziehungen zwischen den drei Werten werden vollständig analysiert und ausgegeben.
+
+*[Hier kannst Du den PAP zum Code einsehen:]* (IfElse/PAP/PAP_VergleichVon3Werten.pdf)
