@@ -27,4 +27,4 @@ Verschachtelte if-else-Bedingungen ermöglichen eine detaillierte Prüfung aller
 6. Endergebnis:
 Die Beziehungen zwischen den drei Werten werden vollständig analysiert und ausgegeben.
 
-[Klicke hier, um den PAP zum Code einzusehen!](IfElse/PAP/PAP_VergleichVon3Werten.pdf)
+[Klicke hier, um den PAP zum Code einzusehen!](UmranBoss/JavaProjects/IfElse/PAP/PAP_VergleichVon3Werten.pdf)
